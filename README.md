@@ -20,5 +20,8 @@ To help process this data, you will create machine learning models capable of cl
 ### Reporting
 * Compare each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
+### Note
+* sklearn upgrade and install joblib will need to be uncommented prior to first run to make sure everthing is up to date.
+
 ## Report:
 
