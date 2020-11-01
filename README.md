@@ -29,4 +29,4 @@ The first machine learning model used was Random Forest. Prior to running the tr
 
 For the SVM model, the same process was used as for the Random Forest model. The main differnce here was that the feature selection was done from the Random Forest feature importance. The lowest 6 features were dropped and everything else was kept in the data. The test accuracy for this model was initially 0.883 and rose slightly after tuning the hyperparameters to 0.884. The classification report indicates that this model would be good for predicting false positive exoplanets (0.97 precision) but not as good for predicting candidates planets (0.77 precision).
 
-Overall, these models may be able to predict exoplanets at around 75% or higher but they are better at predicting false positives it seems.
+Overall, these models may be able to predict exoplanets at around 75% or higher but they are better at predicting false positives it seems. Both of the models have test scores in the upper 80 percentile which is promising, however both models may still be overfitting. Some further tuning and perhaps utilizing different models may reveal more information.
